@@ -1,2 +1,7 @@
 .idea/*
 venv/*
+sample_*/*.pyc
+test/*.pyc
+test/__pycache__/*
+test/step_defs/*.pyc
+test/step_defs/__pycache__/*
