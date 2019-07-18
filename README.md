@@ -1,12 +1,15 @@
 # Sample-PyTest-BDD-Python
+
 ## Purpose
 Question: What is the purpose of this project?
+
 Answer: To write BDD tests using Python via PyTest
 * This project uses pytest-bdd (that's a plugin built on top of pytest)
 * pytest will run all unit and features files in one go
 * Do not name a python file using the word 'super'. Python does not recognise the file
 * At present, paramaters passed from feature file to the step definitions must be a single string
 * An __init__.py file is needed in each directory if a script in that directory is being imported into another script
+
 ## Requirements
 You need to have both pytest and pytest-bdd installed. Both were installed using pip on mac:
 ```
@@ -15,6 +18,7 @@ pip install pytests
 ```
 pip install pytest-bdd
 ```
+
 ## Instructions
 From the root directory of the project, run:
 ```
@@ -56,6 +60,7 @@ E         + Bye_Batman
 test/step_defs/test_hello_world.py:17: AssertionError
 ================================ 2 failed, 1 passed in 0.09 seconds =================================
 ```
+
 ## Notes
 In order to write these tests, we need to firstly install pytest:
 ```
